@@ -55,10 +55,4 @@ const WalkthroughElement: FunctionComponent<Props> = props => {
   );
 };
 
-WalkthroughElement.defaultProps = {
-  content: undefined,
-  tooltipProps: undefined,
-  useTooltipChildContext: false,
-};
-
 export default WalkthroughElement;
